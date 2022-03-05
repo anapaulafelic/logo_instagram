@@ -1,2 +1,4 @@
 # logo_instagram
-Logo Instagram com  (HTML &amp; CSS)
+Logo Instagram usando (HTML &amp; CSS) by @codigofontetv
+https://www.instagram.com/codigofontetv/
+

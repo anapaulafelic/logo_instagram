@@ -1,0 +1,89 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  overflow: hidden;
+}
+
+div.logo {
+  height: 20rem;
+  width: 20rem;
+  background:  radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #5153cf);
+    border-radius: 30%;
+    position: relative;
+}
+div.logo::before {
+  content: '';
+  border: 1rem solid #FFF;
+  border-radius: 30%;
+  width: 12.5rem;
+  height: 12.5rem;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+div.logo::after {
+  content: '';
+  border: 1rem solid #FFF;
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+  
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; 
+}
+
+.logo span {
+  content: '';
+  border: 1rem solid #FFF;
+  border-radius: 100%;
+  width: 0;
+  height: 0;  
+  position: absolute;
+  margin: auto;
+  right: 5rem;
+  top: 5rem;
+}
+
+.fonte {
+  width: 100vw;
+  height: 30px;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 0;
+}
+
+div.fonte a, 
+div.fonte a strong, 
+div.fonte {
+  color: #f15245;
+  font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.fonte a {
+  font-weight: 200;
+}
+
+div.fonte a strong {
+  font-weight: 800;
+}
+
